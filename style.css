@@ -62,3 +62,20 @@ html {
   margin-bottom: 2rem;
   font-size: 34px;
 }
+
+@media (max-width: 767px) {
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-img {
+    width: 300px;
+    height: 280px;
+  }
+  .navbar {
+    padding: 2rem;
+  }
+  .hero-section {
+    padding: 2rem 2rem;
+  }
+}
